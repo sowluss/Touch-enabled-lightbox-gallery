@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery img {
+  width: 300px;
+  margin: 0 10px;
+}
